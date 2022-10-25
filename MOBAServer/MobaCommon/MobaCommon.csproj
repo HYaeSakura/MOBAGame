@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7572903A-7D78-42F7-A9F3-B1F75E88BC33}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MobaCommon</RootNamespace>
+    <AssemblyName>MobaCommon</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\MOBA GAME\Assets\Game\Plugins\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Code\OpAccount.cs" />
+    <Compile Include="Code\OpCode.cs" />
+    <Compile Include="Code\OpFight.cs" />
+    <Compile Include="Code\OpPlayer.cs" />
+    <Compile Include="Code\OpSelect.cs" />
+    <Compile Include="Config\BuildData.cs" />
+    <Compile Include="Config\DamageData.cs" />
+    <Compile Include="Config\DogData.cs" />
+    <Compile Include="Config\HeroData.cs" />
+    <Compile Include="Config\ItemData.cs" />
+    <Compile Include="Config\MonsterData.cs" />
+    <Compile Include="Config\SkillData.cs" />
+    <Compile Include="Dto\AccountDto.cs" />
+    <Compile Include="Dto\BuildModel.cs" />
+    <Compile Include="Dto\MonsterModel.cs" />
+    <Compile Include="Dto\SkillModel.cs" />
+    <Compile Include="Dto\Skill\AttackSkill.cs" />
+    <Compile Include="Dto\DamageModel.cs" />
+    <Compile Include="Dto\DogModel.cs" />
+    <Compile Include="Dto\Frient.cs" />
+    <Compile Include="Dto\HeroModel.cs" />
+    <Compile Include="Dto\Skill\ISkill.cs" />
+    <Compile Include="Dto\PlayerDto.cs" />
+    <Compile Include="Dto\SelectModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

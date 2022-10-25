@@ -1,0 +1,8 @@
+E:\workstations\MOBA GAME\Assets\Plugins\MobaCommon.dll
+E:\workstations\MOBA GAME\Assets\Plugins\MobaCommon.pdb
+E:\workstations\MOBAServer\MobaCommon\obj\Debug\MobaCommon.csproj.AssemblyReference.cache
+E:\workstations\MOBAServer\MobaCommon\obj\Debug\MobaCommon.csproj.CoreCompileInputs.cache
+E:\workstations\MOBAServer\MobaCommon\obj\Debug\MobaCommon.dll
+E:\workstations\MOBAServer\MobaCommon\obj\Debug\MobaCommon.pdb
+E:\workstations\MOBA GAME\Assets\Game\Plugins\MobaCommon.dll
+E:\workstations\MOBA GAME\Assets\Game\Plugins\MobaCommon.pdb

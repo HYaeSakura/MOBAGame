@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOBAServer", "MOBAServer\MOBAServer.csproj", "{DED17F1B-6B99-486A-907C-3501E0F2FDE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobaCommon", "MobaCommon\MobaCommon.csproj", "{7572903A-7D78-42F7-A9F3-B1F75E88BC33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DED17F1B-6B99-486A-907C-3501E0F2FDE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DED17F1B-6B99-486A-907C-3501E0F2FDE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DED17F1B-6B99-486A-907C-3501E0F2FDE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DED17F1B-6B99-486A-907C-3501E0F2FDE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7572903A-7D78-42F7-A9F3-B1F75E88BC33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7572903A-7D78-42F7-A9F3-B1F75E88BC33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7572903A-7D78-42F7-A9F3-B1F75E88BC33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7572903A-7D78-42F7-A9F3-B1F75E88BC33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4ECBE822-07C0-4C84-BEB9-FE0373063F96}
+	EndGlobalSection
+EndGlobal
